@@ -4,8 +4,8 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 
 @Entity
-public class Listing {
+public class Property {
 
     @Id
-    private long listing_id;
+    private long property_id;
 }
